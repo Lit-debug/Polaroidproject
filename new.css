@@ -1,0 +1,108 @@
+.red {
+    border: solid 5px rgb(255, 255, 255);
+    border-bottom: solid 65px white;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    left: 450px;
+    top: 80px;
+    transform: rotate(3deg);
+    display: flex;
+    overflow: hidden;
+    
+}
+
+
+
+.blue {
+    border: solid 5px rgb(255, 255, 255);
+    border-bottom: solid 65px white;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    left: 1201px;
+    top: -230px;
+    transform: rotate(-2deg);
+    overflow: hidden;
+    
+}
+
+.cyan {
+    border: solid 5px rgb(255, 255, 255);
+    border-bottom: solid 65px white;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    left: 450px;
+    top: 0px;
+    transform: rotate(4deg);
+    overflow: hidden;
+    
+}
+
+.magenta {
+    border: solid 5px rgb(255, 255, 255);
+    border-bottom: solid 65px white;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    left: 1201px;
+    top: -300px;
+    transform: rotate(-3.5deg);
+    overflow: hidden;
+}
+
+
+.red:hover {
+    transform:rotate(0deg);
+    width: 300px;
+    height: 250px;
+}
+
+.red:hover img 
+{ width: 100% ;
+    height: 100%;
+}
+
+
+.blue:hover {
+    transform:rotate(0deg);
+    width: 300px;
+    height: 250px;
+}
+
+.blue:hover img {
+    width: 100% ;
+    height: 100%;
+}
+
+.cyan:hover {
+    transform:rotate(0deg);
+    width: 300px;
+    height: 250px;
+}
+
+
+.cyan:hover img {
+    width: 100% ;
+    height: 100%;
+}
+
+.magenta:hover {
+    transform:rotate(0deg);
+    width: 300px;
+    height: 250px;
+}
+
+.magenta:hover img {
+    width: 100% ;
+    height: 100%;
+}
