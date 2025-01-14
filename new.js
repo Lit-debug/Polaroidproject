@@ -53,3 +53,35 @@ var lenDiv = document.getElementsByTagName("div")
 }
 
 aggiornatutto();
+
+async function fetchImmaginiJSON() {
+    const response = await fetch('file.json');
+    const polaroid = await response.json();
+    console.log(red);
+
+    console.log(red.immagini.length);
+    for (var i=0; i < polaroid.immagini.length; i++){
+        console.log(red.immagini[i].didascalia);
+
+        const div = document.createElement("div");
+        //div.innerHTML = div.immagini[i].didascalia;
+        div.classList.add("red");
+        document.getElementById("album").appendChild(div);
+
+        const img = document.createElement("img");
+        img.src = div.immagini[i].url;
+        div.appendChild(img);
+
+        const p = document.createElement("p");
+        div.innerHTML = div.immagini[i].didascalia;
+        p.classList.add("didascalia");
+        div.appendChild(p);
+
+
+    }
+    aggiornatutto()
+
+  }
+
+  fetchImmaginiJSON();
+  
